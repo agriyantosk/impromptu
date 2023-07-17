@@ -1,0 +1,119 @@
+.head {
+    color:#028688;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titleMaster{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.day {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list {
+    background-color: #ecf7fa;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 20%;
+    padding: 40px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.list:hover{
+    background-color: #c0eef9;
+}
+
+.title{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.title:hover {
+    color: #028688;
+}
+.editButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(220, 220, 9);
+    margin-right: 15px;
+    width: 70px;
+    opacity: 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.addBudgetButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(4, 180, 7);
+    margin-right: 15px;
+    width: 70px;
+    opacity: 80%;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.deleteButton {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 66, 66);
+    width: 70px;
+    height: 30px;
+    margin-right: 20px;
+    opacity: 80%;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.addBudgetButton:hover{
+    color: #00a14e;
+    opacity: 100%;
+}
+.addBudgetButton:active {
+    color: #64dcbc;
+}
+.deleteButton:hover{
+    opacity: 100%;
+}
+.deleteButton:active{
+    opacity: 100%;
+    color: #ecf7fa;
+}
+
+.editButton:hover {
+    opacity: 100%;
+    color: rgb(162, 149, 0);
+}
+
+
+.editButton:active {
+    color: rgb(102, 114, 4);
+}

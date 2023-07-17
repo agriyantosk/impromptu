@@ -1,0 +1,30 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(600px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.slideLeft {
+    animation: slideInLeft 1s ease-in both;
+    transform: translateX(-150px);
+}
+
+.slideRight {
+    animation: slideInRight 1s ease-in both;
+    transform: translate(-150px);
+}
